@@ -1,0 +1,34 @@
+
+#pirmas{
+  width: 100%;
+  height: auto;
+}
+
+
+#pirmas:hover::before{
+  opacity: 0;
+  transition: 0.5s
+}
+
+#pirmas::before {
+content:url("../images/lanter1.png");
+left: 13%;
+position: absolute;
+transform: translateX(-100%) translateY(-50%);
+transition: 0.3s;
+z-index:-1;
+}
+
+#pirmas::after{
+content:url("../images/dragon1.png");
+width: 310px;
+height: 110px;
+position: absolute;
+right: 24%;
+top: 51%
+}
+
+#pirmas:hover::after{
+  opacity: 0;
+  transition: 1s
+}

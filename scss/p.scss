@@ -1,0 +1,11 @@
+p {
+  text-align: justify;
+  color:black;
+  font-family: 'Noto Serif JP', serif;
+  font-size: 15px;
+}
+
+p:hover{
+  text-shadow: 0 0 5px white;
+  transition: 0.3s;
+}

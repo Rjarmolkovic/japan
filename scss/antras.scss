@@ -1,0 +1,35 @@
+
+#antras{
+  width: 100%;
+  height: auto;
+}
+
+
+#antras:hover::before{
+  opacity: 0;
+  transition: 0.5s
+}
+
+#antras::before {
+content:url("../images/mask1.png");
+left: 13%;
+position: absolute;
+transform: translateX(-100%) translateY(-50%);
+transition: 0.3s;
+z-index:-1;
+}
+
+#antras::after{
+content:url("../images/katana1.png");
+transform: rotate(90deg);
+width: 310px;
+height: 110px;
+position: absolute;
+right: 0%;
+top: 20%
+}
+
+#antras:hover::after{
+  opacity: 0;
+  transition: 1s
+}
